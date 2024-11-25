@@ -1,0 +1,70 @@
+.container{
+    text-align: center;
+    box-shadow: 2px 0px 10px lightslategray;
+    min-height: 70vh;
+    width: 90vw;
+    position: relative;
+    right: -62px;
+    border-radius: 9px;
+}
+.container .title{
+    padding: 20px 0px;
+    color: teal;
+    font-size: 1.6em;
+    margin: 50px 0px 20px 0px;
+}
+.container .source{
+    margin-bottom: 10px;
+}
+.container .destination{
+    margin-bottom: 10px;
+}
+.source select{
+    padding: 5px 0px;
+    width: 250px;
+    border: 1.5px solid teal;
+    color: teal;
+    border-radius: 5px;
+}
+.destination select{
+    padding: 5px 0px;
+    width: 250px;
+    border-color: teal;
+    border-radius: 5px;
+    border: 1.5px solid teal;
+    color: teal;
+    border-radius: 5px;
+}
+.date input{
+    padding: 5px 0px;
+    width: 250px;
+    border: 1.5px solid teal;
+    color: teal;
+    border-radius: 5px;
+
+}
+.label{
+    color: teal;
+    font-size: 1em;
+    font-weight: bold;
+}
+.button{
+    padding: 5px 15px;
+    font-size: 1em;
+    font-weight: bold;
+    position: relative;
+    top: 30px;
+    color: teal;
+    background: transparent;
+    border-radius: 9px;
+    border: 1.5px solid teal;
+    transition: 0.3ms;
+    cursor: pointer;
+}
+.button:hover{
+    color: rgba(0, 128, 128, 0.87);
+    border-color: rgba(0, 128, 128, 0.87);
+}
+.busList{
+    margin-top: 50px;
+}

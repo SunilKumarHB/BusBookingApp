@@ -1,0 +1,58 @@
+.bus-list{
+    width: 60vw;
+    height: 35vh;
+    border: 1.5px solid cadetblue;
+    border-radius: 5px;
+    padding: 15px 5px;
+    color: rgb(5, 153, 158);
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.1s;
+    cursor: pointer;
+}
+.bus-list:hover{
+    /* border: 2px solid cadetblue; */
+    box-shadow: 1px 1px 4px, -1px -1px 4px;
+}
+.heading{
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color:darkcyan;
+}
+.bus-container{
+    padding-bottom: 10px;
+}
+.bookButton{
+    width: 60px;
+    text-align: center;
+    background-color: hsl(180, 100%, 27%);
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    transition: 0.1s;
+    position: relative;
+    top: -7px;
+}
+.bookButton:hover{
+    background-color: hsl(180, 95%, 23%);
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: center;
+    position: relative;
+    left: 80px;
+    top: 10px;
+    gap: 5px;
+}
+.second{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -80px;
+    gap: 25px;
+
+}

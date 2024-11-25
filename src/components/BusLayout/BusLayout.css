@@ -1,0 +1,103 @@
+.bus-layout-container{
+    width: auto;
+    height: 90vh;
+    background-color: rgba(211, 211, 211, 0.548);
+    padding: 20px 10px;
+    color:rgb(6, 99, 122);
+}
+.availableSeats{
+    display: flex;
+    gap: 15px;
+}
+.available{
+    display: flex;
+    gap: 5px;
+    height: 20px;
+}
+.booked{
+    display: flex;
+    gap: 5px;
+    height: 20px;
+}
+.selected{
+    display: flex;
+    gap: 5px;
+    height: 20px;
+}
+.bus-layout{
+    display: flex;
+    gap: 20px;
+}
+.bus-layout-upper-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin: 3px;
+}
+.bus-layout-upper-right{
+    display: flex;
+    margin: 3px;
+    justify-content: center;
+    align-items: center;
+}
+.bus-layout-upper{
+    display: flex;
+}
+.bus-layout-lower{
+    display: flex;
+}
+.bus-layout-sleeper{
+    display: flex;
+    position: relative;
+    top: 75px;
+    left: -280px;
+}
+.bus-layout-seater{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    top: 55px;
+    left: -230px;
+}
+.upper-title{
+    position: relative;
+    top: -30px;
+    left: 69px;
+    
+}
+.lower-title{
+    position: relative;
+    top: -30px;
+    left: 68px;
+    
+}
+.bus-layout-left{
+    display: flex;
+}
+.bus-layout-right{
+    display: flex;
+}
+.busLayout-displaySeats{
+    display: flex;
+}
+/* .displaySeats{
+    position: absolute;
+} */
+.displaySeats h4{
+    position: relative;
+    top: 335px;
+    left: -165px; 
+
+}
+.displaySeats button{
+    padding: 10px 20px;
+    margin-top: 5px;
+    border-style: none;
+    background-color: teal;
+    color: white;
+    border-radius: 5px;
+    position: absolute;
+    top: 500px;
+    left: 500px;    
+    font-weight: bold;
+}
